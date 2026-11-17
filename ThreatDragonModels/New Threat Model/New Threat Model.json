@@ -21,38 +21,6 @@
         "cells": [
           {
             "position": {
-              "x": 413.75,
-              "y": 29.999999999999915
-            },
-            "size": {
-              "width": 400,
-              "height": 130
-            },
-            "attrs": {
-              "label": {
-                "text": "Trust Boundary - Pengguna Eksternal"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "b191ef69-88a4-4063-87cd-67d5a1b2b7a5",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary - Pengguna Eksternal",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": [
-                "02940f32-835a-43a1-bb32-2c834ba6310a",
-                "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
-                "037894db-033d-4442-89f8-72015e087d3e"
-              ]
-            }
-          },
-          {
-            "position": {
               "x": 430,
               "y": 80
             },
@@ -400,13 +368,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
