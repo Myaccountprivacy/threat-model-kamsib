@@ -1233,52 +1233,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "34b6f01c-4c8d-40dd-950e-414bc92e0c58",
-            "source": {
-              "x": 310,
-              "y": 510
-            },
-            "target": {
-              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
-              "port": "6cd5db5d-b70a-4d36-93d2-0a781b77ed28"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Kredensial Login\nPetugas",
               "description": "",
               "outOfScope": false,
@@ -1310,6 +1264,53 @@
                 "y": 290
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Autentikasi &\nToken Sesi Petugas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Autentikasi &\nToken Sesi Petugas"
+            ],
+            "id": "34b6f01c-4c8d-40dd-950e-414bc92e0c58",
+            "source": {
+              "cell": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
+              "port": "4eee8358-f184-4ae3-9231-2793338ff8aa"
+            },
+            "target": {
+              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
+              "port": "6cd5db5d-b70a-4d36-93d2-0a781b77ed28"
+            },
+            "vertices": []
           }
         ]
       }
