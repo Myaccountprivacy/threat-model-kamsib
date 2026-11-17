@@ -251,6 +251,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -380,9 +387,6 @@
               "height": 60
             },
             "attrs": {
-              "text": {
-                "text": "Process"
-              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -391,6 +395,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -474,7 +479,6 @@
               ]
             },
             "id": "9ea5bef4-d4d4-4543-a1f7-b271be252b83",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Process",
