@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa",
             "zIndex": -1,
+            "id": "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Boundary 1\nZona publik/peserta",
@@ -44,7 +44,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "1de99f03-c972-49ac-aeb6-1f1801447e3b"
+                "1de99f03-c972-49ac-aeb6-1f1801447e3b",
+                "5dffbccc-8a74-4045-bfea-5166a8cad178"
               ],
               "containedElements": [
                 "02940f32-835a-43a1-bb32-2c834ba6310a",
@@ -424,6 +425,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -507,7 +509,6 @@
               ]
             },
             "id": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "P1\nPortal Web \nRegistrasi",
@@ -544,6 +545,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -627,7 +629,6 @@
               ]
             },
             "id": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "P2\nAplikasi Pemindai \nPetugas",
@@ -664,6 +665,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -747,7 +749,6 @@
               ]
             },
             "id": "1f6d8c4f-4ab0-4981-9ba6-196efd0e7b41",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "P3\nDashboard Web\nAdmin",
@@ -784,6 +785,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -867,7 +869,6 @@
               ]
             },
             "id": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "P4\nBackend Tiket",
@@ -907,6 +908,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -990,7 +992,6 @@
               ]
             },
             "id": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "D1\nDatabase Tiket",
@@ -1206,6 +1207,60 @@
             },
             "target": {
               "cell": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
+              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa"
+              ]
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "5dffbccc-8a74-4045-bfea-5166a8cad178",
+            "source": {
+              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
+              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
+            },
+            "target": {
+              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
               "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
             }
           }
