@@ -30,7 +30,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "Boundary 1: Zona publik/peserta"
               }
             },
             "visible": true,
@@ -39,7 +39,7 @@
             "id": "1376ed51-26bd-44d0-8d1a-8d1b435665a4",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Boundary 1: Zona publik/peserta",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -52,6 +52,13 @@
                 "02940f32-835a-43a1-bb32-2c834ba6310a",
                 "62776f47-01bc-4f9b-a673-0610bf5e8ec8"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
