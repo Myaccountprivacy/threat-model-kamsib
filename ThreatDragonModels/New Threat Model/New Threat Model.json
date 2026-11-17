@@ -78,7 +78,9 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "7ed0dcbd-90fc-41af-8961-c5e5c8fa2f38"
+              ],
               "containedElements": [
                 "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
                 "037894db-033d-4442-89f8-72015e087d3e",
@@ -112,7 +114,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "f786e05b-3313-4b14-8007-5481332ce1b7",
-                "323f20fe-4795-4bb3-97ef-ebce3043a482"
+                "323f20fe-4795-4bb3-97ef-ebce3043a482",
+                "99c258a9-807e-4685-8398-7b79e37fd1af"
               ],
               "containedElements": [
                 "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
@@ -1339,6 +1342,108 @@
                 "y": 190
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Kredensial Login\nPetugas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "7670a316-cd90-4912-b545-2bba314b4a14"
+              ]
+            },
+            "labels": [
+              "Kredensial Login\nPetugas"
+            ],
+            "id": "7ed0dcbd-90fc-41af-8961-c5e5c8fa2f38",
+            "source": {
+              "x": 175,
+              "y": 380
+            },
+            "target": {
+              "cell": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
+              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Autentikasi &\nToken Sesi Petugas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5f49c5bd-d92d-4219-b7f7-ba7598d2046e"
+              ]
+            },
+            "labels": [
+              "Autentikasi &\nToken Sesi Petugas"
+            ],
+            "id": "99c258a9-807e-4685-8398-7b79e37fd1af",
+            "source": {
+              "x": 400,
+              "y": 370
+            },
+            "target": {
+              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
+              "port": "6cd5db5d-b70a-4d36-93d2-0a781b77ed28"
+            }
           }
         ]
       }
