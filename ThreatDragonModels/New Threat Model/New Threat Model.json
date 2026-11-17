@@ -117,7 +117,8 @@
                 "f786e05b-3313-4b14-8007-5481332ce1b7",
                 "323f20fe-4795-4bb3-97ef-ebce3043a482",
                 "99c258a9-807e-4685-8398-7b79e37fd1af",
-                "a85d155d-ce8d-4830-a945-fecaa44b7e2b"
+                "a85d155d-ce8d-4830-a945-fecaa44b7e2b",
+                "170f9577-990e-4c7a-b242-3f9c48216171"
               ],
               "containedElements": [
                 "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
@@ -1554,6 +1555,54 @@
                 "y": 410
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Cek & Update\nStatus Check-in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5f49c5bd-d92d-4219-b7f7-ba7598d2046e"
+              ]
+            },
+            "labels": [
+              "Cek & Update\nStatus Check-in"
+            ],
+            "id": "170f9577-990e-4c7a-b242-3f9c48216171",
+            "source": {
+              "x": 799,
+              "y": 390
+            },
+            "target": {
+              "cell": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
+              "port": "4b634639-e5dc-429e-9150-e1d01c13c3dd"
+            }
           }
         ]
       }
