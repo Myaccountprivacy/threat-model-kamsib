@@ -52,13 +52,6 @@
                 "02940f32-835a-43a1-bb32-2c834ba6310a",
                 "62776f47-01bc-4f9b-a673-0610bf5e8ec8"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -72,7 +65,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "Boundary 2: Zona operasional"
               }
             },
             "visible": true,
@@ -81,7 +74,7 @@
             "id": "7670a316-cd90-4912-b545-2bba314b4a14",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Boundary 2: Zona operasional",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
