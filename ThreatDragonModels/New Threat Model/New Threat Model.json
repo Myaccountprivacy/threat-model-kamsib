@@ -104,7 +104,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "Boundary 3: Zona internal server"
               }
             },
             "visible": true,
@@ -113,7 +113,7 @@
             "id": "5f49c5bd-d92d-4219-b7f7-ba7598d2046e",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Boundary 3: Zona internal server",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -129,6 +129,13 @@
                 "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
                 "d3dc3d7c-c170-48f4-95d5-35444c06af0d"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
