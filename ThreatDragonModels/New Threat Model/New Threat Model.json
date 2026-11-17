@@ -492,7 +492,7 @@
           },
           {
             "position": {
-              "x": 510,
+              "x": 490,
               "y": 280
             },
             "size": {
@@ -612,7 +612,7 @@
           },
           {
             "position": {
-              "x": 690,
+              "x": 680,
               "y": 280
             },
             "size": {
@@ -728,13 +728,126 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 850,
+              "y": 280
             },
-            "tools": {
+            "size": {
+              "width": 140,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "P4\nBackend Tiket"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
               "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
+                {
+                  "group": "top",
+                  "id": "af3e4135-af8b-466e-bc33-3c323f755e45"
+                },
+                {
+                  "group": "right",
+                  "id": "4eee8358-f184-4ae3-9231-2793338ff8aa"
+                },
+                {
+                  "group": "bottom",
+                  "id": "2f5ae185-f463-40c9-8976-02cefaa143ec"
+                },
+                {
+                  "group": "left",
+                  "id": "6cd5db5d-b70a-4d36-93d2-0a781b77ed28"
+                }
+              ]
+            },
+            "id": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "P4\nBackend Tiket",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
