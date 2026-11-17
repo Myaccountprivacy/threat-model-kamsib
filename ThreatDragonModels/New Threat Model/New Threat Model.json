@@ -80,20 +80,14 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "7ed0dcbd-90fc-41af-8961-c5e5c8fa2f38",
-                "1f2c0c70-a2ca-4ceb-8f3a-0d973918fd81"
+                "1f2c0c70-a2ca-4ceb-8f3a-0d973918fd81",
+                "05d030a3-5c68-4825-b82b-7d5db6f238b5"
               ],
               "containedElements": [
                 "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
                 "037894db-033d-4442-89f8-72015e087d3e",
                 "ef7ffe0f-e841-4261-9a97-d76c032d83f9"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -124,8 +118,8 @@
                 "f786e05b-3313-4b14-8007-5481332ce1b7",
                 "323f20fe-4795-4bb3-97ef-ebce3043a482",
                 "99c258a9-807e-4685-8398-7b79e37fd1af",
-                "a85d155d-ce8d-4830-a945-fecaa44b7e2b",
-                "170f9577-990e-4c7a-b242-3f9c48216171"
+                "170f9577-990e-4c7a-b242-3f9c48216171",
+                "a85d155d-ce8d-4830-a945-fecaa44b7e2b"
               ],
               "containedElements": [
                 "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
@@ -1464,60 +1458,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Payload Validasi\n(ID Tiket+ID Sesi Petugas)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "5f49c5bd-d92d-4219-b7f7-ba7598d2046e"
-              ]
-            },
-            "labels": [
-              "Payload Validasi\n(ID Tiket+ID Sesi Petugas)"
-            ],
-            "id": "a85d155d-ce8d-4830-a945-fecaa44b7e2b",
-            "source": {
-              "x": 414,
-              "y": 410
-            },
-            "target": {
-              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
-              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
-            },
-            "vertices": [
-              {
-                "x": 500,
-                "y": 410
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": "block"
                 },
                 "strokeDasharray": null
@@ -1683,7 +1623,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Status Hasil Validasi\n(Valid/Tolak)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1694,10 +1634,12 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "7670a316-cd90-4912-b545-2bba314b4a14"
+              ]
             },
             "labels": [
-              "Data Flow"
+              "Status Hasil Validasi\n(Valid/Tolak)"
             ],
             "id": "05d030a3-5c68-4825-b82b-7d5db6f238b5",
             "source": {
@@ -1705,10 +1647,133 @@
               "y": 470
             },
             "target": {
-              "x": 254,
-              "y": 590
+              "cell": "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
+              "port": "89da024e-27bc-4325-9249-545a40715ef3"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 260,
+                "y": 490
+              },
+              {
+                "x": 190,
+                "y": 490
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Payload Validasi\n(ID Tiket+ID Sesi Petugas)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "5f49c5bd-d92d-4219-b7f7-ba7598d2046e"
+              ]
+            },
+            "labels": [
+              "Payload Validasi\n(ID Tiket+ID Sesi Petugas)"
+            ],
+            "id": "a85d155d-ce8d-4830-a945-fecaa44b7e2b",
+            "source": {
+              "x": 414,
+              "y": 410
+            },
+            "target": {
+              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
+              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 410
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
