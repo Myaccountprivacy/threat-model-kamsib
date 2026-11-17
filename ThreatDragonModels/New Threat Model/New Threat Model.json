@@ -44,19 +44,12 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "1fc502c2-2b42-4892-9bd2-8e9ee05b8317"
+                "1de99f03-c972-49ac-aeb6-1f1801447e3b"
               ],
               "containedElements": [
                 "02940f32-835a-43a1-bb32-2c834ba6310a",
                 "62776f47-01bc-4f9b-a673-0610bf5e8ec8"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -412,11 +405,11 @@
           },
           {
             "position": {
-              "x": 513.75,
-              "y": 190
+              "x": 533.75,
+              "y": 180
             },
             "size": {
-              "width": 160,
+              "width": 120,
               "height": 120
             },
             "attrs": {
@@ -773,7 +766,7 @@
           {
             "position": {
               "x": 523.75,
-              "y": 400
+              "y": 450
             },
             "size": {
               "width": 140,
@@ -893,7 +886,7 @@
           {
             "position": {
               "x": 533.75,
-              "y": 610
+              "y": 650
             },
             "size": {
               "width": 120,
@@ -1023,107 +1016,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Formulir Registrasi",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Formulir Registrasi"
-            ],
-            "id": "6e7dbfb4-d812-4d06-ba7f-1687b3c07a63",
-            "source": {
-              "cell": "02940f32-835a-43a1-bb32-2c834ba6310a",
-              "port": "89da024e-27bc-4325-9249-545a40715ef3"
-            },
-            "target": {
-              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
-              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
-            },
-            "vertices": [
-              {
-                "x": 593.5,
-                "y": 170
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Permintaan Registrasi Peserta",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa"
-              ]
-            },
-            "labels": [
-              "Permintaan Registrasi Peserta"
-            ],
-            "id": "1fc502c2-2b42-4892-9bd2-8e9ee05b8317",
-            "source": {
-              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
-              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
-            },
-            "target": {
-              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
-              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": "block"
                 },
                 "strokeDasharray": null
@@ -1160,6 +1052,152 @@
               "cell": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
               "port": "6a0d463b-df35-420f-9977-f973caeb6080"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa"
+              ]
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "1de99f03-c972-49ac-aeb6-1f1801447e3b",
+            "source": {
+              "x": 510,
+              "y": 460
+            },
+            "target": {
+              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
+              "port": "6cd5db5d-b70a-4d36-93d2-0a781b77ed28"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "1fc502c2-2b42-4892-9bd2-8e9ee05b8317",
+            "source": {
+              "x": 590,
+              "y": 360
+            },
+            "target": {
+              "x": 634,
+              "y": 472
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Formulir Registrasi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Formulir Registrasi"
+            ],
+            "id": "8d7d00ff-866e-4c1a-ac59-fca4313f0fca",
+            "source": {
+              "cell": "02940f32-835a-43a1-bb32-2c834ba6310a",
+              "port": "89da024e-27bc-4325-9249-545a40715ef3"
+            },
+            "target": {
+              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
+              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
+            },
+            "vertices": [
+              {
+                "x": 593.5,
+                "y": 140
+              }
+            ]
           }
         ]
       }
