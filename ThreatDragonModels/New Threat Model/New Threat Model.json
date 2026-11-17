@@ -21,8 +21,39 @@
         "cells": [
           {
             "position": {
-              "x": 430,
-              "y": 80
+              "x": 508.7499999999999,
+              "y": 4.000000000000568
+            },
+            "size": {
+              "width": 170,
+              "height": 350
+            },
+            "attrs": {
+              "label": {
+                "text": "Boundary 1\nZona publik/peserta"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Boundary 1\nZona publik/peserta",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "02940f32-835a-43a1-bb32-2c834ba6310a",
+                "62776f47-01bc-4f9b-a673-0610bf5e8ec8"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 537.5,
+              "y": 50
             },
             "size": {
               "width": 112.5,
@@ -138,8 +169,8 @@
           },
           {
             "position": {
-              "x": 690,
-              "y": 80
+              "x": 140,
+              "y": 250
             },
             "size": {
               "width": 112.5,
@@ -255,8 +286,8 @@
           },
           {
             "position": {
-              "x": 557.5,
-              "y": 80
+              "x": 197.5,
+              "y": 180
             },
             "size": {
               "width": 112.5,
@@ -372,8 +403,8 @@
           },
           {
             "position": {
-              "x": 310,
-              "y": 280
+              "x": 513.75,
+              "y": 230
             },
             "size": {
               "width": 160,
@@ -492,8 +523,8 @@
           },
           {
             "position": {
-              "x": 490,
-              "y": 280
+              "x": 240,
+              "y": 360
             },
             "size": {
               "width": 160,
@@ -973,6 +1004,58 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Formulir Registrasi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Formulir Registrasi"
+            ],
+            "id": "6e7dbfb4-d812-4d06-ba7f-1687b3c07a63",
+            "source": {
+              "cell": "02940f32-835a-43a1-bb32-2c834ba6310a",
+              "port": "89da024e-27bc-4325-9249-545a40715ef3"
+            },
+            "target": {
+              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
+              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
+            },
+            "vertices": [
+              {
+                "x": 593.5,
+                "y": 200
+              }
+            ]
           }
         ]
       }
