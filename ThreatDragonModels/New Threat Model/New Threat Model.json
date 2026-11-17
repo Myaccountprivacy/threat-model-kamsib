@@ -44,8 +44,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "1de99f03-c972-49ac-aeb6-1f1801447e3b",
-                "1fc502c2-2b42-4892-9bd2-8e9ee05b8317"
+                "1de99f03-c972-49ac-aeb6-1f1801447e3b"
               ],
               "containedElements": [
                 "02940f32-835a-43a1-bb32-2c834ba6310a",
@@ -1163,54 +1162,6 @@
                 "y": 390
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Permintaan Registrasi\nPeserta",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "dc589fd9-0d77-4b09-8ce1-0000a6afc3aa"
-              ]
-            },
-            "labels": [
-              "Permintaan Registrasi\nPeserta"
-            ],
-            "id": "1fc502c2-2b42-4892-9bd2-8e9ee05b8317",
-            "source": {
-              "cell": "62776f47-01bc-4f9b-a673-0610bf5e8ec8",
-              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
-            },
-            "target": {
-              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
-              "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
-            }
           },
           {
             "shape": "flow",
