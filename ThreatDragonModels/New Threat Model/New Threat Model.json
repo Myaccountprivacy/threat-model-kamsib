@@ -1622,7 +1622,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Status Hasil Validasi\n(Valid/Tolak)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1638,7 +1638,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Status Hasil Validasi\n(Valid/Tolak)"
             ],
             "id": "1f2c0c70-a2ca-4ceb-8f3a-0d973918fd81",
             "source": {
@@ -1648,7 +1648,13 @@
             "target": {
               "cell": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
               "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
-            }
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 470
+              }
+            ]
           }
         ]
       }
