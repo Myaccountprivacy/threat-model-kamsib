@@ -612,14 +612,17 @@
           },
           {
             "position": {
-              "x": 742.5,
+              "x": 690,
               "y": 280
             },
             "size": {
-              "width": 150,
+              "width": 160,
               "height": 120
             },
             "attrs": {
+              "text": {
+                "text": "P3\nDashboard Web\nAdmin"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -714,7 +717,7 @@
             "zIndex": 6,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "P3\nDashboard Web\nAdmin",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
