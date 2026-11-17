@@ -40,7 +40,6 @@
             },
             "visible": true,
             "shape": "actor",
-            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -124,6 +123,7 @@
               ]
             },
             "id": "02940f32-835a-43a1-bb32-2c834ba6310a",
+            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Peserta",
@@ -157,7 +157,6 @@
             },
             "visible": true,
             "shape": "actor",
-            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,6 +240,7 @@
               ]
             },
             "id": "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
+            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Petugas Pintu",
@@ -274,7 +274,6 @@
             },
             "visible": true,
             "shape": "actor",
-            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -358,126 +357,10 @@
               ]
             },
             "id": "037894db-033d-4442-89f8-72015e087d3e",
+            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Admin Acara",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 610,
-              "y": 350
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "fadlan ganteng"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "0d7536a9-9fa9-45d4-b8b7-b393df15804e"
-                },
-                {
-                  "group": "right",
-                  "id": "1b27505e-4e8f-48dc-9a4c-fd605f565d57"
-                },
-                {
-                  "group": "bottom",
-                  "id": "40d824a7-46d5-4d2d-9341-1be23226b704"
-                },
-                {
-                  "group": "left",
-                  "id": "3a478659-8f49-4835-9f7c-f633f05fa2b0"
-                }
-              ]
-            },
-            "id": "bc1fc613-2974-474d-b8b8-7acb957eeae6",
-            "zIndex": 4,
-            "data": {
-              "type": "tm.Actor",
-              "name": "fadlan ganteng",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
