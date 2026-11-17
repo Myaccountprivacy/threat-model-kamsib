@@ -56,8 +56,8 @@
           },
           {
             "position": {
-              "x": 46.999999999993776,
-              "y": 290.0000000000042
+              "x": 46.99999999999952,
+              "y": 290.0000000000009
             },
             "size": {
               "width": 380,
@@ -79,8 +79,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "7ed0dcbd-90fc-41af-8961-c5e5c8fa2f38",
-                "1c2c8df4-56c3-4a7e-b4e1-6f5b52c2f2f0"
+                "7ed0dcbd-90fc-41af-8961-c5e5c8fa2f38"
               ],
               "containedElements": [
                 "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
@@ -1468,60 +1467,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Input Hasil Pindai\nQR Tiket",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "7670a316-cd90-4912-b545-2bba314b4a14"
-              ]
-            },
-            "labels": [
-              "Input Hasil Pindai\nQR Tiket"
-            ],
-            "id": "1c2c8df4-56c3-4a7e-b4e1-6f5b52c2f2f0",
-            "source": {
-              "x": 154,
-              "y": 440
-            },
-            "target": {
-              "cell": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
-              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Payload Validasi\n(ID Tiket+ID Sesi Petugas)",
               "description": "",
               "outOfScope": false,
@@ -1603,6 +1548,58 @@
               "cell": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
               "port": "4b634639-e5dc-429e-9150-e1d01c13c3dd"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Input Hasil Pindai\nQR Tiket",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Input Hasil Pindai\nQR Tiket"
+            ],
+            "id": "1c2c8df4-56c3-4a7e-b4e1-6f5b52c2f2f0",
+            "source": {
+              "cell": "bbe4e523-4ed0-48a7-ba55-f2fc76bd236d",
+              "port": "89da024e-27bc-4325-9249-545a40715ef3"
+            },
+            "target": {
+              "cell": "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
+              "port": "6cd5db5d-b70a-4d36-93d2-0a781b77ed28"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 460
+              }
+            ]
           }
         ]
       }
