@@ -886,8 +886,8 @@
           },
           {
             "position": {
-              "x": 533.75,
-              "y": 650
+              "x": 533.7499999999998,
+              "y": 740
             },
             "size": {
               "width": 120,
@@ -1028,7 +1028,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Simpan Data Peserta & ID Tiket Baru",
+              "name": "Simpan Data Peserta &\nID Tiket Baru",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1042,7 +1042,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Simpan Data Peserta & ID Tiket Baru"
+              "Simpan Data Peserta &\nID Tiket Baru"
             ],
             "id": "0b5dd65c-b468-495b-bd4c-66999e722a18",
             "source": {
@@ -1052,7 +1052,8 @@
             "target": {
               "cell": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
               "port": "6a0d463b-df35-420f-9977-f973caeb6080"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1417,6 +1418,58 @@
               {
                 "x": 420,
                 "y": 560
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Cek & Update\nStatus Check-in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Cek & Update\nStatus Check-in"
+            ],
+            "id": "9cbbf5cd-d864-403a-8d2c-7eb2068884c7",
+            "source": {
+              "x": 630,
+              "y": 560
+            },
+            "target": {
+              "cell": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
+              "port": "c82fbeec-1e19-4169-a515-5935ddaa6f3b"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 670
               }
             ]
           }
