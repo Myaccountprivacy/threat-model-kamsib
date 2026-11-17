@@ -885,8 +885,8 @@
           },
           {
             "position": {
-              "x": 193.75,
-              "y": 510
+              "x": 533.75,
+              "y": 650
             },
             "size": {
               "width": 120,
@@ -1107,6 +1107,52 @@
               "port": "af3e4135-af8b-466e-bc33-3c323f755e45"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Simpan Data Peserta & ID Tiket Baru",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Simpan Data Peserta & ID Tiket Baru"
+            ],
+            "id": "0b5dd65c-b468-495b-bd4c-66999e722a18",
+            "source": {
+              "cell": "4a7e63c9-c835-42c0-87c3-35ae549fac1a",
+              "port": "2f5ae185-f463-40c9-8976-02cefaa143ec"
+            },
+            "target": {
+              "cell": "d3dc3d7c-c170-48f4-95d5-35444c06af0d",
+              "port": "6a0d463b-df35-420f-9977-f973caeb6080"
+            }
           }
         ]
       }
