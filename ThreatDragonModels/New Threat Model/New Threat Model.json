@@ -100,13 +100,6 @@
                 "ef7ffe0f-e841-4261-9a97-d76c032d83f9",
                 "1f6d8c4f-4ab0-4981-9ba6-196efd0e7b41"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -384,7 +377,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "Kredensial petugas bisa dicuri lewat phishing atau diintip langsung saat login di lokasi seminar. Kalau token ID Sesi yang aktif ikut terbajak, penyerang tinggal mengirim request validasi palsu ke P4 seakan dia petugas resmi. \n\nDampak: Tiket bodong bisa lolos masuk dan status tiket peserta asli berubah tanpa hak.",
+                  "description": "Skenario: Kredensial petugas bisa dicuri lewat phishing atau diintip langsung saat login di lokasi seminar. Kalau token ID Sesi yang aktif ikut terbajak, penyerang tinggal mengirim request validasi palsu ke P4 seakan dia petugas resmi. \n\nDampak: Tiket bodong bisa lolos masuk dan status tiket peserta asli berubah tanpa hak.",
                   "mitigation": "Wajibkan MFA dan device binding di akun petugas supaya login dari perangkat asing langsung ditolak. Masa aktif token sesi juga perlu dibatasi (short lived JWT) dan selalu dicek ulang oleh P4 pada tiap request.",
                   "modelType": "STRIDE",
                   "new": false,
@@ -393,7 +386,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -1413,6 +1406,10 @@
             },
             "vertices": [
               {
+                "x": 620,
+                "y": 300
+              },
+              {
                 "x": 590,
                 "y": 280
               },
@@ -1423,6 +1420,14 @@
               {
                 "x": 550,
                 "y": 250
+              },
+              {
+                "x": 500,
+                "y": 210
+              },
+              {
+                "x": 460,
+                "y": 180
               }
             ]
           },
@@ -1430,8 +1435,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1452,30 +1456,16 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [
-                {
-                  "id": "47bf56f4-1f39-4c30-b86c-0795774aa045",
-                  "title": "Enumerasi ID Tiket (IDOR) & Penyadapan Data Peserta",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Skenario: Jika format ID Tiket memakai angka berurutan (sequential ID), penyerang bisa menebaknya lewat celah IDOR untuk mendownload tiket peserta lain. Data peserta dan rekap kehadiran juga rentan disadap apabila enkripsi jaringannya lemah.\n\nDampak: Privasi peserta bocor dan QR Code tiket yang sah bisa dicuri untuk dipakai orang lain pas hari acara.",
-                  "mitigation": "Ubah format ID Tiket menjadi kode acak yang sulit ditebak seperti UUID v4 atau signed token, cek otorisasi kepemilikan tiap kali tiket didownload, dan wajibkan enkripsi TLS 1.2 atau 1.3.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 10,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "trustBoundaryIds": [],
               "threatFrequency": {
                 "tampering": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 0,
                 "denialOfService": 0
               }
             },
