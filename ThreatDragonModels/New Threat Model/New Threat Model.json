@@ -4,12 +4,25 @@
   "released_at": "2026-11-17",
   "summary": {
     "title": "New Threat Model",
-    "owner": "Fadlan",
+    "owner": "Kelompok Fadlan",
     "description": "Sistem E-Ticket dan Validasi Tiket Acara",
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Fadlan Aria P.N / 103012400164 (Ketua)"
+      },
+      {
+        "name": "Diki Sugiantoro / 103012400401"
+      },
+      {
+        "name": "Akmal Haidar Utomo / 103012400140"
+      },
+      {
+        "name": "Ardian Choerudin Nugroho / 103012400361."
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
@@ -1879,7 +1892,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "",
+    "reviewer": "Ibu Vera Suryani",
     "threatTop": 0
   }
 }
